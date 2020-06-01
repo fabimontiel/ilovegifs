@@ -1,0 +1,49 @@
+{
+    "short_name": "GIFs",
+    "name": "GIF App TP",
+    "description": "A little project for our class",
+    "icons": [
+        {
+        "src": "/assets/images/icon-192x192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+        },
+        {
+        "src": "/assets/images/icon-512x512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+        }
+    ],
+    "orientation": "portrait",
+    "start_url": "/?source=pwa",
+    "background_color": "#3367D6",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#f44336",
+    "shortcuts": [
+        {
+        "name": "Search shortcut",
+        "short_name": "Search sc",
+        "description": "A shortcut to the search page",
+        "url": "/today?source=pwa/search.html",
+        "icons": [
+            {
+                "src": "/assets/images/icon-192x192.png",
+                "sizes": "192x192"
+            }
+        ]
+        },
+        {
+        "name": "Saved shortcut",
+        "short_name": "Saved sc",
+        "description": "A shortcut to the saved page",
+        "url": "/today?source=pwa/saved.html",
+        "icons": [
+            {
+                "src": "/assets/images/icon-192x192.png",
+                "sizes": "192x192"
+            }
+        ]
+        }
+    ]
+}
